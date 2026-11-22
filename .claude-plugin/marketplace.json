@@ -1,0 +1,11 @@
+{
+  "name": "claude-discord-rpc",
+  "owner": { "name": "Th7bo" },
+  "plugins": [
+    {
+      "name": "discord-rpc",
+      "source": "./",
+      "description": "Discord Rich Presence for Claude Code. Run /discord-rpc:setup after installing."
+    }
+  ]
+}

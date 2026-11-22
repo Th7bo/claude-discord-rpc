@@ -1,0 +1,8 @@
+{
+  "name": "discord-rpc",
+  "version": "1.0.0",
+  "description": "Discord Rich Presence for Claude Code: shows project, current activity and session timer on your Discord profile.",
+  "author": { "name": "Th7bo" },
+  "repository": "https://github.com/Th7bo/claude-discord-rpc",
+  "license": "MIT"
+}
