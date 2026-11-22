@@ -34,8 +34,8 @@ Discord needs an Application ID to show presence:
   3. Copy the Application ID
 
 MSG
-  if [[ -r /dev/tty ]]; then
-    read -rp "Application ID: " CLIENT_ID </dev/tty
+  if { true </dev/tty; } 2>/dev/null; then
+    read -rp "Application ID: " CLIENT_ID </dev/tty || CLIENT_ID=""
   fi
 fi
 
